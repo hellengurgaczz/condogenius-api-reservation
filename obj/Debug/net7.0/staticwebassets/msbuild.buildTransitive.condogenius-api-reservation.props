@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/condogenius-api-reservation.props" />
+</Project>
