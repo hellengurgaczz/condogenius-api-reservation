@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a78qZFPP2TfQXOQsldVNODrJvymjCxnHGCGs7N7hll4=",
+  "Hash": "1WQnQBQ2uB8tnKKKX3TVIf6dJ3aFXRunIowZNC7zbpM=",
   "Source": "condogenius-api-reservation",
   "BasePath": "_content/condogenius-api-reservation",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/Debug/net7.0/scopedcss/bundle/condogenius-api-reservation.styles.css",
-      "SourceId": "condogenius-api-reservation",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/Debug/net7.0/scopedcss/bundle/",
-      "BasePath": "_content/condogenius-api-reservation",
-      "RelativePath": "condogenius-api-reservation.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/Debug/net7.0/scopedcss/bundle/condogenius-api-reservation.styles.css"
-    },
-    {
-      "Identity": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/Debug/net7.0/scopedcss/projectbundle/condogenius-api-reservation.bundle.scp.css",
-      "SourceId": "condogenius-api-reservation",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/Debug/net7.0/scopedcss/projectbundle/",
-      "BasePath": "_content/condogenius-api-reservation",
-      "RelativePath": "condogenius-api-reservation.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/Debug/net7.0/scopedcss/projectbundle/condogenius-api-reservation.bundle.scp.css"
-    },
     {
       "Identity": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/wwwroot/css/site.css",
       "SourceId": "condogenius-api-reservation",

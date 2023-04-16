@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/Debug/net7.0/scopedcss/projectbundle/condogenius-api-reservation.bundle.scp.css",
-      "PackagePath": "staticwebassets/condogenius-api-reservation.bundle.scp.css"
-    },
-    {
       "Id": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
