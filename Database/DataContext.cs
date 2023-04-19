@@ -1,15 +1,13 @@
-using MySql.Data.EntityFrameworkCore.Extensions;
-using Microsoft.EntityFrameworkCore;
 using condogenius_api_reservation.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace condogenius_api_reservation.Database {
-    public class DataContext : DbContext
+
+namespace condogenius_api_reservation.Database 
+{
+    public class  DataContext : DbContext
     {
-        public DbSet<Reservation> Reservations { get; set; }
+        public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseMySQL("stringDeConexao");
-        }
+        public DbSet<Reservation> Reservations { get; set; }
     }
 }

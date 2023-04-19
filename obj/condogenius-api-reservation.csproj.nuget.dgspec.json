@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/condogenius-api-reservation.csproj": {}
+    "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj": {}
   },
   "projects": {
-    "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/condogenius-api-reservation.csproj": {
+    "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/condogenius-api-reservation.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj",
         "projectName": "condogenius-api-reservation",
-        "projectPath": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/condogenius-api-reservation.csproj",
-        "packagesPath": "/Users/hellenfiori/.nuget/packages/",
-        "outputPath": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/obj/",
+        "projectPath": "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hellenfiori/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -44,7 +44,7 @@
             },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.32.1, )"
+              "version": "[8.0.22, )"
             },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/7.0.100/libexec/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

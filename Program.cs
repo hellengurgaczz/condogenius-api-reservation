@@ -1,8 +1,16 @@
+using condogenius_api_reservation.Database;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddDbContext<DataContext>
+(
+    options => options.UseMySQL("server=localhost;port=3306;database=condogenius;user=root;password=261315")
+);
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddCors(options => {
