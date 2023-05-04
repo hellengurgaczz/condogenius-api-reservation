@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj": {}
+    "C:\\Users\\Win10\\Documents\\Hellen - projetos\\CONDOGENIUS\\condogenius-api-reservation\\condogenius-api-reservation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj": {
+    "C:\\Users\\Win10\\Documents\\Hellen - projetos\\CONDOGENIUS\\condogenius-api-reservation\\condogenius-api-reservation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj",
+        "projectUniqueName": "C:\\Users\\Win10\\Documents\\Hellen - projetos\\CONDOGENIUS\\condogenius-api-reservation\\condogenius-api-reservation.csproj",
         "projectName": "condogenius-api-reservation",
-        "projectPath": "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\condogenius-api-reservation.csproj",
+        "projectPath": "C:\\Users\\Win10\\Documents\\Hellen - projetos\\CONDOGENIUS\\condogenius-api-reservation\\condogenius-api-reservation.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Win10\\Documents\\condogenius-api-reservation\\obj\\",
+        "outputPath": "C:\\Users\\Win10\\Documents\\Hellen - projetos\\CONDOGENIUS\\condogenius-api-reservation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -49,6 +49,10 @@
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.22, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
