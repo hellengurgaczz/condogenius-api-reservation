@@ -38,6 +38,18 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            },
+            "Google.Apis.Auth.Mvc": {
+              "target": "Package",
+              "version": "[1.60.0, )"
+            },
+            "Google.Cloud.PubSub.V1": {
+              "target": "Package",
+              "version": "[3.5.1, )"
+            },
             "Microsoft.OpenApi": {
               "target": "Package",
               "version": "[1.6.3, )"

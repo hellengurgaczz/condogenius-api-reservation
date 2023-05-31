@@ -1,18 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "CTFphVfdzOA0CcuJssgfs1BxLTnkse3GkKT4im5P6sMPowaOWaPr3hyURcNoWVNdUdLwe7e0FzrZYWooxIA8bw==",
+  "dgSpecHash": "IjH9IkLF+h1n//elDpms/wIL8l9GjJDFk77iyWibQuFQS+c8I+uX29EJgIuuOuaV1HgXWGIky8+G86glXfwuCQ==",
   "success": true,
   "projectFilePath": "/Users/hellenfiori/Documents/Hellen/condogenius-api-reservation/condogenius-api-reservation.csproj",
   "expectedPackageFiles": [
     "/Users/hellenfiori/.nuget/packages/bouncycastle.netcore/1.8.3/bouncycastle.netcore.1.8.3.nupkg.sha512",
-    "/Users/hellenfiori/.nuget/packages/google.protobuf/3.11.4/google.protobuf.3.11.4.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.api.commonprotos/2.7.0/google.api.commonprotos.2.7.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.api.gax/4.3.1/google.api.gax.4.3.1.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.api.gax.grpc/4.3.1/google.api.gax.grpc.4.3.1.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.apis/1.60.0/google.apis.1.60.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.apis.auth/1.60.0/google.apis.auth.1.60.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.apis.auth.mvc/1.60.0/google.apis.auth.mvc.1.60.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.apis.core/1.60.0/google.apis.core.1.60.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.cloud.iam.v1/3.0.0/google.cloud.iam.v1.3.0.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.cloud.pubsub.v1/3.5.1/google.cloud.pubsub.v1.3.5.1.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/google.protobuf/3.21.0/google.protobuf.3.21.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/grpc.auth/2.51.0/grpc.auth.2.51.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/grpc.core.api/2.51.0/grpc.core.api.2.51.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/grpc.net.client/2.51.0/grpc.net.client.2.51.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/grpc.net.common/2.51.0/grpc.net.common.2.51.0.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/k4os.compression.lz4/1.1.11/k4os.compression.lz4.1.1.11.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/k4os.compression.lz4.streams/1.1.11/k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/k4os.hash.xxhash/1.0.6/k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/microsoft.aspnet.mvc/5.2.9/microsoft.aspnet.mvc.5.2.9.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/microsoft.aspnet.razor/3.2.9/microsoft.aspnet.razor.3.2.9.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.aspnet.webapi.client/4.0.20710/microsoft.aspnet.webapi.client.4.0.20710.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.aspnet.webapi.core/4.0.20710/microsoft.aspnet.webapi.core.4.0.20710.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.aspnet.webapi.webhost/4.0.20710/microsoft.aspnet.webapi.webhost.4.0.20710.nupkg.sha512",
-    "/Users/hellenfiori/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/microsoft.aspnet.webpages/3.2.9/microsoft.aspnet.webpages.3.2.9.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.entityframeworkcore/3.1.1/microsoft.entityframeworkcore.3.1.1.nupkg.sha512",
@@ -26,7 +42,7 @@
     "/Users/hellenfiori/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.1/microsoft.extensions.configuration.abstractions.3.1.1.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.extensions.configuration.binder/3.1.1/microsoft.extensions.configuration.binder.3.1.1.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.1/microsoft.extensions.dependencyinjection.3.1.1.nupkg.sha512",
-    "/Users/hellenfiori/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.1/microsoft.extensions.dependencyinjection.abstractions.3.1.1.nupkg.sha512",
+    "/Users/hellenfiori/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.extensions.logging/3.1.1/microsoft.extensions.logging.3.1.1.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.1/microsoft.extensions.logging.abstractions.3.1.1.nupkg.sha512",
     "/Users/hellenfiori/.nuget/packages/microsoft.extensions.options/3.1.1/microsoft.extensions.options.3.1.1.nupkg.sha512",
@@ -136,6 +152,36 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "Package 'Google.Apis.Auth.Mvc 1.60.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Google.Apis.Auth.Mvc",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc 5.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Razor 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.WebApi.Client 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.Client",
       "targetGraphs": [
@@ -158,6 +204,16 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.AspNet.WebApi.WebHost 4.0.20710' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.AspNet.WebApi.WebHost",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages 3.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages",
       "targetGraphs": [
         "net7.0"
       ]

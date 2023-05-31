@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 using condogenius_api_reservation.Controllers;
 using condogenius_api_reservation.Models;
 using Microsoft.AspNetCore.Mvc;
+using Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -95,6 +96,12 @@ using (var scope = app.Services.CreateScope())
         if (result is CreatedResult createdResult)
         {
             Console.WriteLine("Reserva cadastrada!");
+            string projectId = "handy-courage-388421";
+            string topicId = "send-notifications";
+            string mgm = "Reserva realizada com sucesso para o dia " + reservation.reserve_date;
+
+            PubSubUtils pubSubUtils = new PubSubUtils();
+            pubSubUtils.SendMessageToPubSub(projectId, topicId, mgm);
         } 
         else 
         {
