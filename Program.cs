@@ -10,6 +10,7 @@ using System.Text;
 using Newtonsoft.Json;
 using condogenius_api_reservation.Controllers;
 using condogenius_api_reservation.Models;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -89,7 +90,16 @@ using (var scope = app.Services.CreateScope())
 
         // Chamar o método Create do ReservationsController para criar a reserva
         var reservationsController = new ReservationsController(context);
-        Console.WriteLine(reservationsController.Create(reservation));
+        var result = reservationsController.Create(reservation);
+
+        if (result is CreatedResult createdResult)
+        {
+            Console.WriteLine("Reserva cadastrada!");
+        } 
+        else 
+        {
+            Console.WriteLine("Erro ao cadastrar reserva: ", reservation);
+        }
 
     };
 
