@@ -83,11 +83,12 @@ using (var scope = app.Services.CreateScope())
     consumer.Received += (model, ea) =>
     {
         var body = ea.Body.ToArray();
-        var message = Encoding.UTF8.GetString(body);
-        Console.WriteLine("Mensagem recebida: {0}", message);
+        var content = Encoding.UTF8.GetString(body);
+        Console.WriteLine("Mensagem recebida: {0}", content);
 
-        // Converter a mensagem para o objeto Reservation
-        var reservation = JsonConvert.DeserializeObject<Reservation>(message);
+        var message = JsonConvert.DeserializeObject<Message>(content);
+        var reservationJson = JsonConvert.SerializeObject(message.Reservation);
+        var reservation = JsonConvert.DeserializeObject<Reservation>(reservationJson);
 
         // Chamar o método Create do ReservationsController para criar a reserva
         var reservationsController = new ReservationsController(context);
@@ -98,10 +99,15 @@ using (var scope = app.Services.CreateScope())
             Console.WriteLine("Reserva cadastrada!");
             string projectId = "handy-courage-388421";
             string topicId = "send-notifications";
-            string mgm = "Reserva realizada com sucesso para o dia " + reservation.reserve_date;
+            var notification = new
+            {
+                contact = message.Contact.ToString(),
+                message = $"{message.ResidentName}, sua reserva para o dia {reservation.reserve_date} foi confirmada!"
+            };
+            var jsonString = JsonConvert.SerializeObject(notification);
 
             PubSubUtils pubSubUtils = new PubSubUtils();
-            pubSubUtils.SendMessageToPubSub(projectId, topicId, mgm);
+            pubSubUtils.SendMessageToPubSub(projectId, topicId, jsonString);
         } 
         else 
         {
